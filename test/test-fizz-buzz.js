@@ -15,6 +15,10 @@ describe('this makes sure fizzBuzz works', function() {
 		const answer = fizzBuzzer(20);
 		answer.should.equal('buzz');
 	}),	
+	it('make sure it checks the 95', function() {
+		const answer = fizzBuzzer(95);
+		answer.should.equal('buzz');
+	}),	
 	it('make sure it checks the 15', function() {
 		const answer = fizzBuzzer(15);
 		answer.should.equal('fizz-buzz');
