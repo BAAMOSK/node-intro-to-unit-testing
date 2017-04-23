@@ -1,6 +1,12 @@
 language: node_js
 node_js: node
-deploy: node-tdd
+deploy:
+  provider: heroku
+  api_key:
+    secure: cQuuM86F5wvW1vwGFXGsJiFOQa72UZ4tmZb/j0bcCUYOuKHnxWsNxBcxEz2A0u277bjxJ8EjCYRAPySfkKaPAK88J4l+JmpVLIW3AmOyJpKuz4lGFnSXL0W+zE1hQyY13n3wzSj1u4NhDBU1uu+6ODo/BqjV5XwDU7NKyEsPMNVvQPaIt4f/GAPGWmHVCND0S5uaPk5BotHYEbaUNFRji3ynv6CB5HsrK/1EQ8I2+CiyUc0CtpxUcNOIouxjDqA+viD2RADXmsnl4yXOWTMU4zcXOuhbKSTmsYdxZ/SUziNxBpSmc3l4rG6dKA1mtT7ATyz0OZP/EJmuXiwQu9XGk3etR87iEqrPUNKZ4IMO46k+hP1TdyWzb7CAx3U4kR798YY8sst2CxFzdh5ip7lmcVD0Q0/5cJUMWkC674Rd15E28rDWGjhx3Ds9OZFHDNti9WzDIzj6B2DTnXrqA3QlmqvYt4iuZrzS2oXSJScaXgIP0ZsB9pEMLvEl1vHpjLwmsfjRnVyZ/yH9TqFvW546xW8GZlUEvK1Egvp/gkmG+GvBfMcdVZ9461pog90dKsb3Y/uQRm367cBeATQaB3deEmBdnnNcqlSpuTaO5XuT03fB4B0KqqWLnEbU3FEP3CEeDOcW61Qb8mxWL9GpZuuyYmT3aBzsfSLuFRBqoRoxp9g=
+  app: node-intro-to-unit-testing
+  on:
+    repo: BAAMOSK/node-intro-to-unit-testing
 provider: heroku
-api_key:
+api_key: 
 secure: 10858328-17c3-4a23-b926-3fa82d14a887
