@@ -1,6 +1,6 @@
 language: node_js
 node_js: node
-deploy: shielded-island-20550
+deploy: node-tdd
 provider: heroku
 api_key:
 secure: 10858328-17c3-4a23-b926-3fa82d14a887
